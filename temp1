@@ -1,0 +1,996 @@
+<script type="text/javascript" src="https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1&amp;time=1621900384" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2&amp;time=1621900384" id="jquery-migrate-js"></script>
+
+
+    <link 
+    rel='stylesheet'
+    type='text/css'
+    media='all'
+    href='https://cdn-files.s3.ca-central-1.amazonaws.com/style-aws.css' /> 
+
+ <div class="wp--header-embeded">   
+<div class="home page-template-default page page-id-520 theme-hello-elementor woocommerce-js elementor-default elementor-kit-47 elementor-page elementor-page-520 e--ua-blink e--ua-edge e--ua-webkit">
+    <div
+      data-elementor-type="header"
+      data-elementor-id="66"
+      class="elementor elementor-66 elementor-location-header"
+      data-elementor-settings="[]"
+    >
+      <div class="elementor-section-wrap">
+        <section
+          class="
+            elementor-section
+            elementor-top-section
+            elementor-element
+            elementor-element-7ddf3899
+            elementor-section-full_width
+            elementor-section-height-min-height
+            elementor-section-items-stretch
+            elementor-hidden-phone
+            elementor-section-height-default
+          "
+          data-id="7ddf3899"
+          data-element_type="section"
+          data-settings='{"background_background":"classic","motion_fx_motion_fx_scrolling":"yes","motion_fx_range":"viewport","motion_fx_devices":["desktop","tablet","mobile"]}'
+        >
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-3a3fd9d4
+              "
+              data-id="3a3fd9d4"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element
+                    elementor-element-50220a80
+                    elementor-widget
+                    elementor-widget-image
+                  "
+                  data-id="50220a80"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <a href="">
+                      <img
+                        width="3562"
+                        height="1666"
+                        src="https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116.png?time=1621702432"
+                        class="attachment-full size-full"
+                        alt="TATHAN MASMELA BLANCO"
+                        loading="lazy"
+                        srcset="
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116.png          3562w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-300x140.png   300w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-1024x479.png 1024w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-768x359.png   768w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-1536x718.png 1536w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-2048x958.png 2048w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-600x281.png   600w
+                        "
+                        sizes="(max-width: 3562px) 100vw, 3562px"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-1f898fe9
+              "
+              data-id="1f898fe9"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element elementor-element-4d5276a2
+                    elementor-nav-menu__align-right
+                    elementor-nav-menu--dropdown-mobile
+                    elementor-nav-menu--stretch
+                    elementor-nav-menu__text-align-center
+                    elementor-nav-menu--indicator-classic
+                    elementor-nav-menu--toggle
+                    elementor-nav-menu--burger
+                    elementor-widget elementor-widget-nav-menu
+                  "
+                  data-id="4d5276a2"
+                  data-element_type="widget"
+                  data-settings='{"full_width":"stretch","layout":"horizontal","toggle":"burger"}'
+                  data-widget_type="nav-menu.default"
+                >
+                  <div class="elementor-widget-container">
+                    <nav
+                      role="navigation"
+                      class="
+                        elementor-nav-menu--main
+                        elementor-nav-menu__container
+                        elementor-nav-menu--layout-horizontal
+                        e--pointer-text e--animation-sink
+                      "
+                    >
+                      <ul
+                        id="menu-1-4d5276a2"
+                        class="elementor-nav-menu"
+                        data-smartmenus-id="16218930243804097"
+                      >
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-home
+                            current-menu-item
+                            page_item page-item-520
+                            current_page_item
+                            menu-item-627
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/"
+                            aria-current="page"
+                            class="elementor-item elementor-item-active"
+                            onclick=""
+                            >Home Desktop Header mENU </a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-678
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/ecosistema/"
+                            class="elementor-item"
+                            >Ecosistema</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-515
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/noticias/"
+                            class="elementor-item"
+                            >Noticias</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-711
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/contacto/"
+                            class="elementor-item"
+                            >Contacto</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                    <div
+                      class="elementor-menu-toggle"
+                      role="button"
+                      tabindex="0"
+                      aria-label="Menu Toggle"
+                      aria-expanded="false"
+                      style=""
+                    >
+                      <i class="eicon-menu-bar" aria-hidden="true"></i>
+                      <span class="elementor-screen-only">Menu</span>
+                    </div>
+                    <nav
+                      class="
+                        elementor-nav-menu--dropdown elementor-nav-menu__container
+                      "
+                      role="navigation"
+                      aria-hidden="true"
+                      style="top: 40px; width: 1142px; left: 0px"
+                    >
+                      <ul
+                        id="menu-2-4d5276a2"
+                        class="elementor-nav-menu"
+                        data-smartmenus-id="16218930243828052"
+                      >
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-home
+                            current-menu-item
+                            page_item page-item-520
+                            current_page_item
+                            menu-item-627
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/"
+                            aria-current="page"
+                            class="elementor-item elementor-item-active"
+                            >Home ***  </a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-678
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/ecosistema/"
+                            class="elementor-item"
+                            >Ecosistema</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-515
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/noticias/"
+                            class="elementor-item"
+                            >Noticias</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-711
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/contacto/"
+                            class="elementor-item"
+                            >Contacto</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-7e323556
+              "
+              data-id="7e323556"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element
+                    elementor-element-5f1a0f9
+                    elementor-grid-mobile-2
+                    e-grid-align-left
+                    elementor-shape-rounded elementor-grid-0
+                    e-grid-align-center
+                    elementor-widget elementor-widget-social-icons
+                  "
+                  data-id="5f1a0f9"
+                  data-element_type="widget"
+                  data-widget_type="social-icons.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="elementor-social-icons-wrapper elementor-grid">
+                      <div class="elementor-grid-item">
+                        <a
+                          class="
+                            elementor-icon
+                            elementor-social-icon
+                            elementor-social-icon-facebook
+                            elementor-animation-sink
+                            elementor-repeater-item-a33f7a1
+                          "
+                          href="https://www.facebook.com/t.masmela"
+                          target="_blank"
+                        >
+                          <span class="elementor-screen-only">Facebook</span>
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                      </div>
+                      <div class="elementor-grid-item">
+                        <a
+                          class="
+                            elementor-icon
+                            elementor-social-icon
+                            elementor-social-icon-instagram
+                            elementor-animation-sink
+                            elementor-repeater-item-fd86d60
+                          "
+                          href="https://www.instagram.com/tathan.m/"
+                          target="_blank"
+                        >
+                          <span class="elementor-screen-only">Instagram</span>
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="
+            elementor-section
+            elementor-top-section
+            elementor-element
+            elementor-element-1dfe24e
+            elementor-section-full_width
+            elementor-section-height-min-height
+            elementor-section-items-stretch
+            elementor-hidden-desktop
+            elementor-hidden-tablet
+            elementor-section-height-default
+            elementor-sticky
+            elementor-sticky--effects
+            elementor-sticky--active
+            elementor-section--handles-inside
+          "
+          data-id="1dfe24e"
+          data-element_type="section"
+          data-settings='{"sticky":"top","background_background":"classic","sticky_on":["desktop","tablet","mobile"],"sticky_offset":0,"sticky_effects_offset":0}'
+          style="position: fixed; margin-top: 0px; margin-bottom: 0px; top: 0px"
+        >
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-ce01954
+              "
+              data-id="ce01954"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element
+                    elementor-element-cde66e3
+                    elementor-widget
+                    elementor-widget-image
+                  "
+                  data-id="cde66e3"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <a href="">
+                      <img
+                        width="3562"
+                        height="1666"
+                        src="https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116.png?time=1621702432"
+                        class="attachment-full size-full"
+                        alt="TATHAN MASMELA BLANCO"
+                        loading="lazy"
+                        srcset="
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116.png          3562w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-300x140.png   300w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-1024x479.png 1024w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-768x359.png   768w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-1536x718.png 1536w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-2048x958.png 2048w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-600x281.png   600w
+                        "
+                        sizes="(max-width: 3562px) 100vw, 3562px"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-a74be54
+              "
+              data-id="a74be54"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element
+                    elementor-element-a2fae99
+                    elementor-grid-mobile-2
+                    e-grid-align-left
+                    elementor-shape-rounded elementor-grid-0
+                    e-grid-align-center
+                    elementor-widget elementor-widget-social-icons
+                  "
+                  data-id="a2fae99"
+                  data-element_type="widget"
+                  data-widget_type="social-icons.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="elementor-social-icons-wrapper elementor-grid">
+                      <div class="elementor-grid-item">
+                        <a
+                          class="
+                            elementor-icon
+                            elementor-social-icon
+                            elementor-social-icon-facebook
+                            elementor-animation-sink
+                            elementor-repeater-item-a33f7a1
+                          "
+                          href="https://www.facebook.com/t.masmela"
+                          target="_blank"
+                        >
+                          <span class="elementor-screen-only">Facebook</span>
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                      </div>
+                      <div class="elementor-grid-item">
+                        <a
+                          class="
+                            elementor-icon
+                            elementor-social-icon
+                            elementor-social-icon-instagram
+                            elementor-animation-sink
+                            elementor-repeater-item-fd86d60
+                          "
+                          href="https://www.instagram.com/tathan.m/"
+                          target="_blank"
+                        >
+                          <span class="elementor-screen-only">Instagram</span>
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-827cd10
+              "
+              data-id="827cd10"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element elementor-element-87a5854
+                    elementor-nav-menu__align-right
+                    elementor-nav-menu--dropdown-mobile
+                    elementor-nav-menu--stretch
+                    elementor-nav-menu__text-align-center
+                    elementor-nav-menu--indicator-classic
+                    elementor-nav-menu--toggle
+                    elementor-nav-menu--burger
+                    elementor-widget elementor-widget-nav-menu
+                  "
+                  data-id="87a5854"
+                  data-element_type="widget"
+                  data-settings='{"full_width":"stretch","layout":"horizontal","toggle":"burger"}'
+                  data-widget_type="nav-menu.default"
+                >
+                  <div class="elementor-widget-container">
+                    <nav
+                      role="navigation"
+                      class="
+                        elementor-nav-menu--main
+                        elementor-nav-menu__container
+                        elementor-nav-menu--layout-horizontal
+                        e--pointer-text e--animation-sink
+                      "
+                    >
+                      <ul
+                        id="menu-1-87a5854"
+                        class="elementor-nav-menu"
+                        data-smartmenus-id="16218930244235232"
+                      >
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-home
+                            current-menu-item
+                            page_item page-item-520
+                            current_page_item
+                            menu-item-627
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/"
+                            aria-current="page"
+                            class="elementor-item elementor-item-active"
+                             target="_blank"
+                            >Home ****</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-678
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/ecosistema/"
+                            class="elementor-item"
+                            >Ecosistema</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-515
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/noticias/"
+                            class="elementor-item"
+                            >Noticias</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-711
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/contacto/"
+                            class="elementor-item"
+                            >Contacto</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                    <div
+                      class="elementor-menu-toggle"
+                      role="button"
+                      tabindex="0"
+                      aria-label="Menu Toggle"
+                      aria-expanded="false"
+                      style=""
+                    >
+                      <i class="eicon-menu-bar" aria-hidden="true"></i>
+                      <span class="elementor-screen-only">Menu</span>
+                    </div>
+                    <nav
+                      class="
+                        elementor-nav-menu--dropdown elementor-nav-menu__container
+                      "
+                      role="navigation"
+                      aria-hidden="true"
+                      style="top: 0px; width: 1142px; left: 0px"
+                    >
+                      <ul
+                        id="menu-2-87a5854"
+                        class="elementor-nav-menu"
+                        data-smartmenus-id="1621893024423861"
+                      >
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-home
+                            current-menu-item
+                            page_item page-item-520
+                            current_page_item
+                            menu-item-627
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/"
+                            aria-current="page"
+                            class="elementor-item elementor-item-active"
+                            >Home **** 2</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-678
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/ecosistema/"
+                            class="elementor-item"
+                            >Ecosistema</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-515
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/noticias/"
+                            class="elementor-item"
+                            >Noticias</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-711
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/contacto/"
+                            class="elementor-item"
+                            >Contacto</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="
+            elementor-section
+            elementor-top-section
+            elementor-element
+            elementor-element-1dfe24e
+            elementor-section-full_width
+            elementor-section-height-min-height
+            elementor-section-items-stretch
+            elementor-hidden-desktop
+            elementor-hidden-tablet
+            elementor-section-height-default
+            elementor-sticky
+            elementor-sticky__spacer
+          "
+          data-id="1dfe24e"
+          data-element_type="section"
+          data-settings='{"sticky":"top","background_background":"classic","sticky_on":["desktop","tablet","mobile"],"sticky_offset":0,"sticky_effects_offset":0}'
+          style="
+            visibility: hidden;
+            transition: none 0s ease 0s;
+            animation: 0s ease 0s 1 normal none running none;
+          "
+        >
+          <div class="elementor-container elementor-column-gap-default">
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-ce01954
+              "
+              data-id="ce01954"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element
+                    elementor-element-cde66e3
+                    elementor-widget
+                    elementor-widget-image
+                  "
+                  data-id="cde66e3"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <a href="">
+                      <img
+                        width="3562"
+                        height="1666"
+                        src="https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116.png?time=1621702432"
+                        class="attachment-full size-full"
+                        alt="TATHAN MASMELA BLANCO"
+                        loading="lazy"
+                        srcset="
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116.png          3562w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-300x140.png   300w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-1024x479.png 1024w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-768x359.png   768w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-1536x718.png 1536w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-2048x958.png 2048w,
+                          https://secureservercdn.net/192.169.220.85/5nw.c7d.myftpupload.com/wp-content/uploads/2021/05/ID-TATHAN-BLANCO-e1620851042116-600x281.png   600w
+                        "
+                        sizes="(max-width: 3562px) 100vw, 3562px"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-a74be54
+              "
+              data-id="a74be54"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element
+                    elementor-element-a2fae99
+                    elementor-grid-mobile-2
+                    e-grid-align-left
+                    elementor-shape-rounded elementor-grid-0
+                    e-grid-align-center
+                    elementor-widget elementor-widget-social-icons
+                  "
+                  data-id="a2fae99"
+                  data-element_type="widget"
+                  data-widget_type="social-icons.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="elementor-social-icons-wrapper elementor-grid">
+                      <div class="elementor-grid-item">
+                        <a
+                          class="
+                            elementor-icon
+                            elementor-social-icon
+                            elementor-social-icon-facebook
+                            elementor-animation-sink
+                            elementor-repeater-item-a33f7a1
+                          "
+                          href="https://www.facebook.com/t.masmela"
+                          target="_blank"
+                        >
+                          <span class="elementor-screen-only">Facebook</span>
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                      </div>
+                      <div class="elementor-grid-item">
+                        <a
+                          class="
+                            elementor-icon
+                            elementor-social-icon
+                            elementor-social-icon-instagram
+                            elementor-animation-sink
+                            elementor-repeater-item-fd86d60
+                          "
+                          href="https://www.instagram.com/tathan.m/"
+                          target="_blank"
+                        >
+                          <span class="elementor-screen-only">Instagram</span>
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="
+                elementor-column
+                elementor-col-33
+                elementor-top-column
+                elementor-element
+                elementor-element-827cd10
+              "
+              data-id="827cd10"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="
+                    elementor-element elementor-element-87a5854
+                    elementor-nav-menu__align-right
+                    elementor-nav-menu--dropdown-mobile
+                    elementor-nav-menu--stretch
+                    elementor-nav-menu__text-align-center
+                    elementor-nav-menu--indicator-classic
+                    elementor-nav-menu--toggle
+                    elementor-nav-menu--burger
+                    elementor-widget elementor-widget-nav-menu
+                  "
+                  data-id="87a5854"
+                  data-element_type="widget"
+                  data-settings='{"full_width":"stretch","layout":"horizontal","toggle":"burger"}'
+                  data-widget_type="nav-menu.default"
+                >
+                  <div class="elementor-widget-container">
+                    <nav
+                      role="navigation"
+                      class="
+                        elementor-nav-menu--main
+                        elementor-nav-menu__container
+                        elementor-nav-menu--layout-horizontal
+                        e--pointer-text e--animation-sink
+                      "
+                    >
+                      <ul id="menu-1-87a5854" class="elementor-nav-menu">
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-home
+                            current-menu-item
+                            page_item page-item-520
+                            current_page_item
+                            menu-item-627
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/"
+                            aria-current="page"
+                            class="elementor-item elementor-item-active"
+                            >Home ******</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-678
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/ecosistema/"
+                            class="elementor-item"
+                            >Ecosistema</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-515
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/noticias/"
+                            class="elementor-item"
+                            >Noticias</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-711
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/contacto/"
+                            class="elementor-item"
+                            >Contacto</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                    <div
+                      class="elementor-menu-toggle"
+                      role="button"
+                      tabindex="0"
+                      aria-label="Menu Toggle"
+                      aria-expanded="false"
+                    >
+                      <i class="eicon-menu-bar" aria-hidden="true"></i>
+                      <span class="elementor-screen-only">Menu</span>
+                    </div>
+                    <nav
+                      class="
+                        elementor-nav-menu--dropdown elementor-nav-menu__container
+                      "
+                      role="navigation"
+                      aria-hidden="true"
+                    >
+                      <ul id="menu-2-87a5854" class="elementor-nav-menu">
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-home
+                            current-menu-item
+                            page_item page-item-520
+                            current_page_item
+                            menu-item-627
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/"
+                            aria-current="page"
+                            class="elementor-item elementor-item-active"
+                            >Home *_ </a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-678
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/ecosistema/"
+                            class="elementor-item"
+                            >Ecosistema</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-515
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/noticias/"
+                            class="elementor-item"
+                            >Noticias</a
+                          >
+                        </li>
+                        <li
+                          class="
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-711
+                          "
+                        >
+                          <a
+                            href="https://tathanmasmela.com/contacto/"
+                            class="elementor-item"
+                            >Contacto</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    </div>
+    </div>
+    
