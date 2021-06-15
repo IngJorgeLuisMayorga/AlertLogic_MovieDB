@@ -13,6 +13,7 @@ export class SpinnerInblockComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(' ')
   }
 
 }

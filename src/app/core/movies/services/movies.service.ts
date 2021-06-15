@@ -1,11 +1,12 @@
 import { HttpClient } from '@angular/common/http'
 import { Injectable } from '@angular/core'
-import { BehaviorSubject } from 'rxjs'
+import { BehaviorSubject, Observable } from 'rxjs'
+import { map } from 'rxjs/operators'
 import { environment } from 'src/environments/environment'
 import toMovie from '../helpers/toMovie'
 import IMovie from '../models/IMovie.model'
 import { IMovieResponseTrend } from '../models/IMovieTrend.response.model'
-
+import 'zone.js/testing';
 @Injectable({
   providedIn: 'root',
 })
@@ -63,6 +64,6 @@ export class MoviesService {
     return movies;
    
   }
-  
+
 
 }

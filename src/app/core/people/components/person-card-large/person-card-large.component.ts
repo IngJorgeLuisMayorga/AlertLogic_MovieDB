@@ -1,28 +1,35 @@
-import { Component, Input, OnInit } from '@angular/core';
-import {IPerson} from '../../models/IPerson.model';
+import { Component, Input, OnInit } from '@angular/core'
+import { IPerson } from '../../models/IPerson.model'
 
 @Component({
   selector: 'app-person-card-large',
   templateUrl: './person-card-large.component.html',
-  styleUrls: ['./person-card-large.component.less']
+  styleUrls: ['./person-card-large.component.less'],
 })
 export class PersonCardLargeComponent implements OnInit {
-
   @Input()
-  person!: IPerson;
+  person!: IPerson
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
+    console.log(' ')
   }
 
-
-  getProfileSrc()    {
-  if(this.person.profile_path){
-    return 'http://image.tmdb.org/t/p/w780/' + this.person.profile_path
-  } else {
-    return '../../../../../assets/images/movie_placeholder.png'
+  
+  get personURL():string{
+    if(this.person && this.person.id){
+      return '/person/' +this.person.id
+    } else {
+      return '';
+    }
   }
- 
-}
+
+  getProfileSrc() {
+    if (this.person.profile_path) {
+      return 'http://image.tmdb.org/t/p/w780/' + this.person.profile_path
+    } else {
+      return '../../../../../assets/images/movie_placeholder.png'
+    }
+  }
 }

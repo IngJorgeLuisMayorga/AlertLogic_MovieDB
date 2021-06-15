@@ -10,6 +10,7 @@ export class AuthShortcutsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(' ')
   }
 
 }

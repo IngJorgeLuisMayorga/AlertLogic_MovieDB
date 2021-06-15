@@ -10,6 +10,7 @@ export class IndexNewsSectionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    //'https://www.cinemablend.com/rss/topic/previews/movies
     
   }
 

@@ -13,6 +13,7 @@ export class MediaShortcutsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(' ')
   }
 
   setToogleMute(){

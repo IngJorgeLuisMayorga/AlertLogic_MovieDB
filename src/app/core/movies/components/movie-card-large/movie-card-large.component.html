@@ -1,15 +1,38 @@
-<div class="movie-card movie-card-large" [routerLink]="'/movie/' + movie.id">
-    <div class="movie-card-wrapper">
-        
-        <div class="upper">
-            <img [src]="getMovieSrc()">
-        </div>
-
-        <div class="lower">
-            <h1>{{ movie.title }} </h1>
-            <h2>{{ movie.release_date | date:'yyyy'}} </h2>
-        </div>
-        
+<div class="movie-card movie-card-large" [routerLink]="movieURL" *ngIf="movie">
+  <div class="movie-card-wrapper">
+    <div class="upper">
+      
+      <div class="upper-picture">
+        <img [src]="getMovieSrc()" />
+      </div>
 
     </div>
-</div> 
+
+    <div class="lower">
+        
+
+      <div class="movie-titles">
+        <h1 class="movie-title">{{ movie.title }}</h1>
+        <h1 class="movie-title-original">{{ movie.original_title }}</h1>
+      </div>
+
+
+      <h2 class="movie-release-year">
+        {{ movie.release_date | date: 'yyyy' }}
+      </h2>
+
+
+      <div class="movie--rating">
+
+        <div class="movie--rating--circle" [ngClass]="getCircleColor(movie.vote_average)">
+           <div class="movie--rating--label">{{ movie.vote_average }}</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
