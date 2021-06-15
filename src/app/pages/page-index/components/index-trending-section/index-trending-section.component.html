@@ -1,0 +1,13 @@
+<div class="index-trending">
+
+    <h1> TODAY'S TRENDING MOVIES </h1>
+
+    <div class="container">
+        <div class="tile" *ngFor="let movie of movies">
+            <a [routerLink]="'/movie/'+movie.id">
+            <img [src]="getImage(movie.poster_path)">
+            </a>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,15 @@
+<div class="movie-card movie-card-large" [routerLink]="'/movie/' + movie.id">
+    <div class="movie-card-wrapper">
+        
+        <div class="upper">
+            <img [src]="getMovieSrc()">
+        </div>
+
+        <div class="lower">
+            <h1>{{ movie.title }} </h1>
+            <h2>{{ movie.release_date | date:'yyyy'}} </h2>
+        </div>
+        
+
+    </div>
+</div> 

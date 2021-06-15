@@ -1,0 +1,54 @@
+<div class="search">
+
+    <div class="search-input">
+        <div class="search-field">
+            <div class="search-field--wrapper">
+                <input type="text" placeholder="     " [(ngModel)]="keyword" (change)="setKeyword($event)">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+
+
+    <div class="search-results" *ngIf="!(searching$ | async)">
+
+          <mat-tab-group mat-align-tabs="center">
+            <mat-tab label="Movies">
+                <div *ngIf="(movies$ | async); let movies">
+                    <ul class="movies" *ngIf="movies.length > 0; else notResultsMovie">
+                        <li class="tile" *ngFor="let movie of movies">
+                            <app-movie-card-large [movie]="movie"></app-movie-card-large>
+                        </li>
+                    </ul>
+        
+                    <ng-template #notResultsMovie>
+                        <h1 class="tag-no-results">NO RESULTS MOVIES</h1>
+                    </ng-template>
+                </div>
+
+            </mat-tab>
+            <mat-tab label="People">
+                <div *ngIf="(people$ | async); let people">
+                    <ul class="people" *ngIf="people.length > 0; else notResultsPeople">
+                        <li class="tile" *ngFor="let person of people">
+                            <app-person-card-large [person]="person"></app-person-card-large>
+                        </li>
+                    </ul>
+        
+                    <ng-template #notResultsPeople>
+                        <h1 class="tag-no-results">NO RESULTS PEOPLE</h1>
+                    </ng-template>
+                </div>
+            </mat-tab>
+          </mat-tab-group>
+          
+
+    </div>
+
+    <app-spinner-inblock [enable]="(searching$ | async) || false"></app-spinner-inblock>
+
+</div>

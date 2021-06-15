@@ -1,0 +1,153 @@
+@import (reference) '../../../styles/_index.less';
+
+.search {
+  display: block;
+  width: calc(100% - 4em);
+  margin: 0 auto;
+}
+.search-results {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.search-field {
+  display: block;
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+
+  margin-top: 2em;
+
+  box-sizing: border-box;
+
+  border: 1px solid gray;
+
+  background-color: @color-gray;
+  color: white;
+
+  font-size: 26px;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+.tag-no-results {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: @color-gray;
+  letter-spacing: 2px;
+  padding: 3.5em 0em;
+}
+.search-field--wrapper {
+  display: block;
+
+  .flex-display(flex);
+  .flex-direction(row);
+  .flex-wrap(nowrap);
+
+  .justify-content(flex-start);
+  .align-content(center);
+  .align-items(center);
+}
+.search-field--wrapper i {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.search-field--wrapper input {
+  color: white;
+
+  font-size: 16px;
+  letter-spacing: 2px;
+
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  width: 100%;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  box-sizing: border-box;
+
+  -webkit-transition: width 500ms ease-in-out;
+  -moz-transition: width 500ms ease-in-out;
+  -ms-transition: width 500ms ease-in-out;
+  -o-transition: width 500ms ease-in-out;
+  transition: width 500ms ease-in-out;
+
+  &:focus {
+    width: 100%;
+  }
+
+  &:not(:placeholder-shown) {
+    width: 100%;
+  }
+
+  &:placeholder-shown {
+    width: 100%;
+  }
+}
+
+.mat-tab-group {
+  margin-bottom: 48px;
+}
+
+.search-results .movies {
+  display: block;
+  width: 100%;
+}
+
+
+.search-results .movies,.search-results .people {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+
+  padding-top: 1em;
+
+  li {
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.85;
+
+    -o-transition: 1.25s;
+    -ms-transition: 1.25s;
+    -moz-transition: 1.25s;
+    -webkit-transition: 1.25s;
+    transition: 1.25s;
+  }
+
+  .tile img:hover {
+    opacity: 1;
+    -o-transition: 1.25s;
+    -ms-transition: 1.25s;
+    -moz-transition: 1.25s;
+    -webkit-transition: 1.25s;
+    transition: 1.25s;
+    box-shadow: 2px 2px 2px #585858b9;
+  }
+
+  .tile {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .tile:nth-child(0) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+
+.search-results .people {
+  li{
+    height: auto;
+  }
+}

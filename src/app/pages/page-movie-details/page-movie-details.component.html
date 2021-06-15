@@ -1,0 +1,58 @@
+<div class="movie" *ngIf="movie">
+  <div class="row">
+    <div class="col col-picture">
+      <img [src]="getSrc(movie.poster_path)" />
+    </div>
+    <div class="col col-info">
+      <h1 class="title">{{ movie.title }}</h1>
+      <h2 class="original-title">{{ movie.original_title }}</h2>
+
+      <h3 class="year">
+        <strong>Year</strong> {{ movie.release_date | date: 'yyyy' }}
+      </h3>
+      <h3 class="study" *ngIf="movie.production_companies">
+        <strong>Company</strong> {{ movie.production_companies[0].name }}
+      </h3>
+      <h3 class="director"><strong>Director</strong> {{ director }}</h3>
+      <h3 class="language" *ngIf="movie.spoken_languages">
+        <strong>Language</strong> {{ movie.spoken_languages[0].name }}
+      </h3>
+
+      <div class="to-bottom">
+        <p class="description">{{ movie.overview }}</p>
+        <ul class="cast">
+          <li *ngFor="let actor of cast | slice: 0:7">
+            <a *ngIf="actor" [routerLink]="'/person/' + actor.id">
+              <img [src]="getSrc(actor.profile_path)" />
+              <h5>
+                {{ actor.name }}
+              </h5>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div ckass="row" *ngIf="recommendations && recommendations.length > 0">
+    <br />
+    <br />
+    <h1>RECOMMENDATIONS</h1>
+    <ul class="suggestions">
+      <li *ngFor="let recomMovie of recommendations | slice: 0:7">
+        <a [routerLink]="'/movie/' + recomMovie.id">
+          <img [src]="getSrc(recomMovie.poster_path)" />
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

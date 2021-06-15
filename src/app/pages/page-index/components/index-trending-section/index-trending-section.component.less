@@ -1,0 +1,92 @@
+@import  (reference) '../../../../../styles/_index.less';
+
+
+.index-trending{
+    display: block;
+    width: calc(100% - 2em);
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    h1{
+        font-size: 36px;
+        font-weight:600;
+        color: @color-gray;
+        padding-top: 1em;
+    }
+}
+
+
+.container{
+
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 1rem;
+}
+
+.tile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.85;
+
+    -o-transition:1.25s;
+    -ms-transition:1.25s;
+    -moz-transition:1.25s;
+    -webkit-transition:1.25s;
+    transition:1.25s;
+
+}
+
+.tile img:hover{
+    opacity: 1;
+    -o-transition:1.25s;
+    -ms-transition:1.25s;
+    -moz-transition:1.25s;
+    -webkit-transition:1.25s;
+    transition:1.25s;
+    box-shadow: 2px 2px 2px #585858b9;
+
+
+}
+
+.tile-large{
+    grid-column: span 2;
+    grid-row: span 2; 
+}
+
+.tile:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+@media screen and (max-width: 650px){
+    .container{
+        display: block;
+    }
+    .tile{
+        margin-bottom: 1rem;
+    }
+}
+
+
+/*
+
+.tile:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.tile:nth-child(2),
+.tile:nth-child(3){
+    grid-column: span 2;
+}
+
+.tile:nth-child(4),
+.tile:nth-child(5){
+    grid-column: span 3;
+}
+*/

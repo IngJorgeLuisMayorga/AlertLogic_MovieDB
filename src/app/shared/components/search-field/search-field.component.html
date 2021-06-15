@@ -1,0 +1,25 @@
+<div class="search-field">
+    <div class="search-field--wrapper">
+        
+        <input type="text" placeholder="     " [(ngModel)]="keyword" (change)="setKeyword($event)">
+        <i class="fas fa-search"></i>
+
+    </div>
+</div>
+
+<div class="search-results" *ngIf="keyword">
+    <ul>
+        <li *ngFor="let item of (movies$ | async) | slice: 0:5 " (click)="goToMovie(item.id)">
+           <div class="item">
+                <div class="col">
+                    <img [src]="item.image">
+                </div>  
+                <div class="col">
+                    <h1>{{item.name}}</h1>
+                    <h2>{{item.date}}</h2>
+                    <h3>{{item.description | trunkText: 150 }}</h3>
+                </div>  
+           </div>
+        </li>
+    </ul>
+</div>

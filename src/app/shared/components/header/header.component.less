@@ -1,0 +1,60 @@
+@import '../../../../styles/_index.less';
+
+.header {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+
+  background-color: rgba(250, 250, 250, 0);
+  overflow: hidden;
+  color: #919191;
+
+}
+
+.header-wrapper,
+.header-wrapper ul {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0em;
+
+  .flex-display(flex);
+  .flex-direction(row);
+  .flex-wrap(nowrap);
+
+  .justify-content(space-between);
+  .align-content(center);
+  .align-items(center);
+
+  &.row-left {
+    li:first-child {
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      -webkit-align-self: auto;
+      -ms-flex-item-align: auto;
+      align-self: auto;
+    }
+  }
+
+  &.row-wide{
+    display: block;
+    width: 100%;
+  }
+
+}
+
+.header-wrapper .header-logo {
+  display: block;
+  width: 10em;
+  cursor: pointer;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}

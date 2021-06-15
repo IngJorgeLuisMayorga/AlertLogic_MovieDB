@@ -1,0 +1,10 @@
+<div class="navbar">
+    <ul>
+        <li *ngFor="let item of menu">
+            <a [routerLink]="item.path" [routerLinkActive]="['is-active']">
+                <div [innerHTML]="item.icon"></div>
+                <span style=" font-size: 16px; padding-top: 5px;">{{ item.name }}</span>
+            </a>
+        </li>
+    </ul>
+</div>

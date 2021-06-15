@@ -1,0 +1,41 @@
+<div class="person" *ngIf="person">
+    <div class="row">
+      <div class="col col-picture">
+        <img [src]="getSrc(person.profile_path)" />
+      </div>
+      <div class="col col-info">
+
+        <h1 class="title">{{ person.name }}</h1>
+  
+        <h3 class="year">
+          <strong>Birthday</strong> {{ person.birthday }}
+        </h3>
+
+        <h3 class="study" >
+          <strong>Born</strong> {{ person.place_of_birth }}
+        </h3>
+    
+  
+        <div class="to-bottom">
+
+          <p class="description">{{ person.biography }}</p>
+       
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="row">
+      <div class="container">
+        <div class="tile" *ngFor="let movie of cast" [routerLink]="'/movie/' + movie.id">
+          <img [src]="getSrc(movie.poster_path, true)">
+        </div>
+      </div>
+    </div>
+  
+
+  </div>
+ 
+  <br />

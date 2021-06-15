@@ -1,0 +1,22 @@
+<div class="index">
+
+    <section>
+        <app-index-trending-section
+            [movies]="(moviesTrends$ | async) | slice:1:14 "
+        ></app-index-trending-section>
+    </section>
+
+    <section>
+        <app-index-recommended-section></app-index-recommended-section>
+    </section>
+
+    <section>
+        <app-index-news-section></app-index-news-section>
+    </section>
+
+    <section>
+        <app-index-videos-section></app-index-videos-section>
+    </section>
+
+ 
+</div>
